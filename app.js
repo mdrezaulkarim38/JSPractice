@@ -1,7 +1,7 @@
 let message;
 message = 'Hello';
 
-alert(message);
+// alert(message);
 
 let test = 1;
 let test2 = 3;
