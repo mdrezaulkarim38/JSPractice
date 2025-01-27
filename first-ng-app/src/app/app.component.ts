@@ -8,15 +8,16 @@ import { HomeComponent } from './home/home.component';
   imports: [RouterOutlet, HeaderComponent, HomeComponent],
   template: `
     <app-header />
-    <app-home />
-    <router-outlet />
+    <main>
+      <app-home />
+    </main>
   `,
   styles: [`
-    p{
-      background-color: red;
+    main {
+      padding: 16px;
     }
     `],
 })
 export class AppComponent {
-  title = 'Shuvo Love Farhana';
+  title = 'My Angular Project';
 }
