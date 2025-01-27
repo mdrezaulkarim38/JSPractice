@@ -12,5 +12,5 @@ import { RouterOutlet } from '@angular/router';
   styles: [],
 })
 export class AppComponent {
-  title = 'first-ng-app';
+  title = 'Shuvo Love Farhana';
 }
