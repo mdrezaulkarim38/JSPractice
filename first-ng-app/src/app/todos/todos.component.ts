@@ -13,7 +13,7 @@ export class TodosComponent implements OnInit {
   todoItems = signal<Array<Todo>>([]);
 
   ngOnInit(): void {
-    console.log(this.todoService.todoItems);
-    this.todoItems.set(this.todoService.todoItems);
+    // console.log(this.todoService.todoItems);
+    // this.todoItems.set(this.todoService.todoItems);
   }
 }
