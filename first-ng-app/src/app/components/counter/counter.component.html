@@ -1,6 +1,6 @@
-<p>Counter value: 0</p>
+<p>Counter value: {{ counterValue() }}</p>
 <div>
-    <button>Increment</button>
-    <button>Reset</button>
-    <button>Decrement</button>
+    <button (click)="increment()">Increment</button>
+    <button (click)="reset()">Reset</button>
+    <button (click)="decrement()">Decrement</button>
 </div>
