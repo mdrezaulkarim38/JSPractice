@@ -6,9 +6,10 @@ function App()
     <div>
       <h1>React js</h1>
       <h3>Welcome to React js</h3>
+      <p>{ 2 + 2}</p>
       <Header></Header>
     </div>
   )
 }
 
-export default App
+export default App;
