@@ -1,16 +1,13 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./Header"
 
-function App() {
-  //const [count, setCount] = useState(0)
-
+function App()
+{
   return (
-    <>
-      <h1>Code Step by Step</h1>
-      <h1>Hello React 19</h1>
-    </>
+    <div>
+      <h1>React js</h1>
+      <h3>Welcome to React js</h3>
+      <Header></Header>
+    </div>
   )
 }
 
