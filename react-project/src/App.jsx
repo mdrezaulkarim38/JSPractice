@@ -1,10 +1,11 @@
-import './App.css'
-function App()
-{
+import "./App.css";
+import Header from "./Header";
+function App() {
   return (
-    <>
-    <h3>This is first</h3>
-    </>
+    <div>
+      <h3>This is App</h3>
+      <Header />
+    </div>
   );
 }
 
