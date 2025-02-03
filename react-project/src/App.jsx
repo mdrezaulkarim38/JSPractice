@@ -1,10 +1,13 @@
 import "./App.css";
 import Header from "./Header";
+import Login,{ Profile} from "./UserComponent";
 function App() {
   return (
     <div>
-      <h3>This is App</h3>
       <Header />
+      <h2>First component</h2>
+      <Login />
+      <Profile />
     </div>
   );
 }
