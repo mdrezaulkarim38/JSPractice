@@ -1,6 +1,6 @@
 import "./App.css";
-import Header from "./Header";
-import Login,{ Profile} from "./UserComponent";
+import Header from "./components/Header";
+import Login,{ Profile} from "./components/UserComponent";
 function App() {
   return (
     <div>
