@@ -12,6 +12,7 @@ const App = () => {
             <h1>Find <span className="text-gradient">Movies</span> You&apos;ll Enjoy without the Hassle </h1>
           </header>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+          <h2 className="text-white">{searchTerm}</h2>
         </div>
     </main>
   )
