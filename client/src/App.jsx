@@ -1,15 +1,14 @@
+import { useState } from "react";
 function App() {
-    let fruit = "Apple";
-    let count = 0;
+    const [fruit, setFruit] = useState("Apple");
     const handleFruit = () => {
-        fruit = "Banana"
-        console.log(fruit,count);
+        fruit == "Apple" ? setFruit("Banana") : setFruit("Apple");
     }
     return (
-        <div>
+        <div className="container">
             <h1>State in React Js</h1>
             <h1>{fruit}</h1>
-            <button onClick={handleFruit}>Change Fruit name</button>
+            <button className="btn btn-primary" onClick={handleFruit}>Change Fruit name</button>
         </div>
     );
 }
