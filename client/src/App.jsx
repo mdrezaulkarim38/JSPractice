@@ -1,8 +1,9 @@
 function App() {
     let fruit = "Apple";
+    let count = 0;
     const handleFruit = () => {
         fruit = "Banana"
-        console.log(fruit);
+        console.log(fruit,count);
     }
     return (
         <div>
