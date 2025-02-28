@@ -1,9 +1,12 @@
+import Logo from "./assets/react.svg"
 function App() {
   return (
-    <div className="flex justify-end space-x-6">
-      <div className="h-16 w-16 rounded-full bg-Bka-500"></div>
-      <div className="h-16 w-16 rounded-full bg-orange-500"></div>
-      <div className="h-16 w-16 rounded-full bg-blue-500"></div>
+    <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-blue-100 p-6 shdow-lg outline outline-black/5 ">
+        <img className="size-12 shrink-0" src={Logo} alt="logo"/>
+        <div>
+            <div className={"text-xl font-medium text-black"}>ChitChat</div>
+            <p className={"text-gray-500 dark:text-gray-400"}>You have a new message!</p>
+        </div>
     </div>
   )
 }
