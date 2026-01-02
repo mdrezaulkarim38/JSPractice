@@ -134,3 +134,6 @@ dist
 .pnp.*
 
 .idea
+
+./Angular/projectSetup/.vscode/
+./Angular/projectSetup/node_modules/
