@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './data-binding.css',
 })
 export class DataBinding {
-
+  courseName = "Angular21 tutorial";
+  cityName = "Alamdanga";
 }
