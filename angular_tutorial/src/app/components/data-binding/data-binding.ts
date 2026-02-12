@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 export class DataBinding {
   courseName = "Angular21 tutorial";
   cityName = "Alamdanga";
+
+  className = 'primary';
+  inputType ="text";
 }
