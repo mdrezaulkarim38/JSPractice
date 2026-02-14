@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './signal.css',
 })
 export class Signal {
-
+  courseName: string = 'Angular 21';
 }
