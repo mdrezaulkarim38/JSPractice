@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>jQuery Element Selector</h1>
+
+    <section id="sec">
+      <table>
+        <tr>
+          <td>Front End</td>
+          <td>Back End</td>
+        </tr>
+        <tr>
+          <td>Bootstrap</td>
+          <td>NODE JS</td>
+        </tr>
+        <tr>
+          <td>jQuery</td>
+          <td>PHP</td>
+        </tr>
+      </table>
+    </section>
+    <button id="demo">Click Me</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#demo").click(function () {
+          $("table tr:odd").css("backgroundColor", "skyblue");
+        });
+      });
+    </script>
+  </body>
+</html>
